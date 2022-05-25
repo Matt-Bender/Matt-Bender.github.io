@@ -18,3 +18,28 @@ img {
 {
   text-align: center;
 }
+.lightblue
+{
+  color:#1AC4BC;
+}
+.verticalspace
+{
+  padding-top: 30px;
+}
+iframe
+{
+  display:block;
+  border-style: none;
+}
+.video
+{
+  width: 1000px;
+  height: 400px;
+}
+/* button
+{
+  height: 50px;
+  width: 150px;
+  color:white;
+  background-color:#1AC4BC;
+} */
