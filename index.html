@@ -1,73 +1,302 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Overview</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css" integrity="sha256-D9M5yrVDqFlla7nlELDaYZIpXfFWDytQtiV+TaH6F1I=" crossorigin="anonymous" />
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MannaFest Greens - Fresh Microgreens Delivered</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
-    <!-- Header -->
-    <section class="hero is-info is-small">
-      <div class="hero-body">
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-container">
+      <div class="nav-brand">
+        <i data-lucide="sprout"></i>
+        <span>MannaFest Greens</span>
+      </div>
+      <div class="nav-links">
+        <a href="#benefits">Benefits</a>
+        <a href="#products">Shop</a>
+        <a href="#subscription">Subscribe</a>
+        <a href="#contact">Contact</a>
+        <button class="cart-btn">
+          <i data-lucide="shopping-cart"></i>
+          <span class="cart-count">0</span>
+        </button>
+      </div>
+    </div>
+  </nav>
 
-          <!-- <a href="Art.html"> -->
-          <!-- <img width="551.25" height="176.25"  src="Portfolio/MB Logo.png" alt="Logo"> -->
-
-          <!-- 735 235 / 4 183.75 58.75 -->
-          <div class="has-text-centered container">
-          <!-- <img width="100"height="100" src="Portfolio/Husky Head.png" alt="Logo"> -->
-
-        </a>
-          <h1 class="title">
-            <img width="367.5" height="117.5"  src="Portfolio/MB Logo.png" alt="Logo">
-            <!-- Matthew Bender -->
-          </h1>
-          <!-- <h2 class="subtitle">
-            Portfolio
-          </h2> -->
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>Nourishing Your Body, Naturally</h1>
+        <p>Experience the power of fresh, locally grown microgreens delivered straight to your door. Packed with nutrients, bursting with flavor.</p>
+        <div class="hero-buttons">
+          <button class="btn btn-primary">Shop Now</button>
+          <button class="btn btn-outline">Learn More</button>
         </div>
       </div>
-
-    <div class="hero-foot">
-      <nav class="tabs is-boxed is-fullwidth">
-        <div class="container">
-          <ul>
-            <li class="is-active"><a href="index.html" style="color:cyan;">Overview</a></li>
-            <li><a href="Games.html">Games</a></li>
-            <li><a href="Art.html">Art</a></li>
-          </ul>
-        </div>
-      </nav>
     </div>
   </section>
 
-
-
-
-
-      <div class="container verticalspace">
-        <h1 class="title is-1 centered is-info" style="color:#1AC4BC">About Me</h1>
-        <h2 class="subtitle verticalspace">
-          Dedicated Video Game Programmer with a passion for both game and
-          level design. Spent extensive time making games in Unity for
-          game competitions, side projects, and school projects.
-          Through these projects, I have learned how to push myself and
-          collaborate with others. I am continuing to improve my technical
-          skills and I am always eager to learn more. <br><br>While my focus is on
-          programming through my many solo projects I have had to learn many
-          different aspects of game development including: UI, Art, Animation,
-          game/level design and Quality Assurance/Testing.
-          <br><br>
-        </h2>
+  <!-- Benefits Section -->
+  <section id="benefits" class="benefits">
+    <div class="container">
+      <div class="section-header">
+        <h2>Why Choose Our Microgreens?</h2>
+        <p>Discover the incredible benefits of our carefully cultivated microgreens, packed with nutrients and flavor.</p>
       </div>
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <i data-lucide="leaf"></i>
+          </div>
+          <h3>100% Organic</h3>
+          <p>Grown without pesticides or harmful chemicals, ensuring the purest and safest greens for your table.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <i data-lucide="heart"></i>
+          </div>
+          <h3>Nutrient Dense</h3>
+          <p>Up to 40x more nutrients than mature plants, providing maximum health benefits in every bite.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-icon">
+            <i data-lucide="award"></i>
+          </div>
+          <h3>Fresh Harvested</h3>
+          <p>Harvested daily and delivered within hours, ensuring peak freshness and nutritional value.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <div class="centered">
-      <!-- target="_blank" so that it opens in new tab -->
-    <a href="Portfolio/Resume.pdf" target="_blank">Resume</a>
-    <a href="Portfolio/Cover Letter.pdf" target="_blank">CV</a>
-  </div>
+  <!-- Products Section -->
+  <section id="products" class="products">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Fresh Microgreens</h2>
+        <p>Choose from our selection of premium microgreens, each carefully grown for optimal nutrition and flavor.</p>
+      </div>
+      <div class="products-grid">
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1592437111271-239fa8dcb401?auto=format&fit=crop&q=80&w=800" alt="Broccoli Microgreens">
+          <div class="product-content">
+            <div class="product-header">
+              <h3>Broccoli Microgreens</h3>
+              <span class="price">$14.99</span>
+            </div>
+            <p>Rich in sulforaphane, perfect for detox and heart health</p>
+            <div class="product-rating">
+              <i data-lucide="star" class="star-filled"></i>
+              <span>4.9 Rating</span>
+            </div>
+            <div class="product-sizes">
+              <button>2oz</button>
+              <button>4oz</button>
+              <button>8oz</button>
+            </div>
+            <button class="btn btn-primary full-width">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1515471209610-dae1c92d8777?auto=format&fit=crop&q=80&w=800" alt="Pea Shoot Microgreens">
+          <div class="product-content">
+            <div class="product-header">
+              <h3>Pea Shoot Microgreens</h3>
+              <span class="price">$12.99</span>
+            </div>
+            <p>Sweet and crunchy, high in protein and fiber</p>
+            <div class="product-rating">
+              <i data-lucide="star" class="star-filled"></i>
+              <span>4.8 Rating</span>
+            </div>
+            <div class="product-sizes">
+              <button>2oz</button>
+              <button>4oz</button>
+              <button>8oz</button>
+            </div>
+            <button class="btn btn-primary full-width">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <img src="https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?auto=format&fit=crop&q=80&w=800" alt="Sunflower Microgreens">
+          <div class="product-content">
+            <div class="product-header">
+              <h3>Sunflower Microgreens</h3>
+              <span class="price">$13.99</span>
+            </div>
+            <p>Nutty flavor, packed with healthy fats and vitamin E</p>
+            <div class="product-rating">
+              <i data-lucide="star" class="star-filled"></i>
+              <span>4.9 Rating</span>
+            </div>
+            <div class="product-sizes">
+              <button>2oz</button>
+              <button>4oz</button>
+              <button>8oz</button>
+            </div>
+            <button class="btn btn-primary full-width">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  </body>
+  <!-- Subscription Section -->
+  <section id="subscription" class="subscription">
+    <div class="container">
+      <div class="subscription-card">
+        <div class="subscription-content">
+          <h2>Subscribe & Save</h2>
+          <p>Get fresh microgreens delivered to your door weekly or monthly. Save up to 20% with our subscription plans.</p>
+          <ul class="subscription-features">
+            <li>
+              <i data-lucide="chevron-right"></i>
+              <span>Choose your favorite microgreens</span>
+            </li>
+            <li>
+              <i data-lucide="chevron-right"></i>
+              <span>Select delivery frequency</span>
+            </li>
+            <li>
+              <i data-lucide="chevron-right"></i>
+              <span>Enjoy fresh greens every week</span>
+            </li>
+          </ul>
+          <button class="btn btn-primary">Start Subscription</button>
+        </div>
+        <div class="subscription-image"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h2>What Our Customers Say</h2>
+        <p>Join thousands of satisfied customers who have made our microgreens part of their healthy lifestyle.</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200" alt="Sarah Johnson">
+            <div>
+              <h4>Sarah Johnson</h4>
+              <div class="stars">
+                <i data-lucide="star" class="star-filled"></i>
+                <i data-lucide="star" class="star-filled"></i>
+                <i data-lucide="star" class="star-filled"></i>
+                <i data-lucide="star" class="star-filled"></i>
+                <i data-lucide="star" class="star-filled"></i>
+              </div>
+            </div>
+          </div>
+          <p>"The freshest microgreens I've ever tasted! The weekly subscription has transformed my cooking."</p>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200" alt="Michael Chen">
+            <div>
+              <h4>Michael Chen</h4>
+              <div class="stars">
+                <i data-lucide="star" class="star-filled"></i>
+                <i data-lucide="star" class="star-filled"></i>
+                <i data-lucide="star" class="star-filled"></i>
+                <i data-lucide="star" class="star-filled"></i>
+                <i data-lucide="star" class="star-filled"></i>
+              </div>
+            </div>
+          </div>
+          <p>"Incredible quality and service. These microgreens have become an essential part of my healthy lifestyle."</p>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200" alt="Emily Rodriguez">
+            <div>
+              <h4>Emily Rodriguez</h4>
+              <div class="stars">
+                <i data-lucide="star" class="star-filled"></i>
+                <i data-lucide="star" class="star-filled"></i>
+                <i data-lucide="star" class="star-filled"></i>
+                <i data-lucide="star" class="star-filled"></i>
+                <i data-lucide="star" class="star-filled"></i>
+              </div>
+            </div>
+          </div>
+          <p>"The subscription service is so convenient, and the microgreens are always fresh and flavorful."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter">
+    <div class="container">
+      <div class="newsletter-content">
+        <h2>Stay Connected</h2>
+        <p>Subscribe to our newsletter for recipes, health tips, and exclusive offers.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email">
+          <button type="submit" class="btn btn-dark">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand">
+            <i data-lucide="sprout"></i>
+            <span>MannaFest Greens</span>
+          </div>
+          <p>Bringing the freshest and most nutritious microgreens to your table, sustainably grown with care.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Subscription</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <ul>
+            <li>123 Green Street</li>
+            <li>Fresh City, FC 12345</li>
+            <li>contact@mannafest.com</li>
+            <li>(555) 123-4567</li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#"><i data-lucide="instagram"></i></a>
+            <a href="#"><i data-lucide="facebook"></i></a>
+            <a href="#"><i data-lucide="twitter"></i></a>
+            <a href="#"><i data-lucide="mail"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 MannaFest Greens. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
 </html>
